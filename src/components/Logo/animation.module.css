@@ -1,0 +1,16 @@
+.main{
+  height: 40px;
+  margin-left: 25px;
+  color: #4267B2;
+}
+
+.enter {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 500ms linear;
+}
+
+.enterActive{
+  opacity: 1;
+  transform: translateX(0);
+}

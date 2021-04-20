@@ -1,0 +1,25 @@
+/* ToDo Contacts */
+.contactList {
+  margin-left: 20px;
+  padding: 0px;
+  width: 380px;
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.3); */
+}
+
+.contactList li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  list-style: none;
+  width: 380px;
+  margin: 5px 0;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.contactList button {
+  border: none;
+  outline: none;
+  background: none;
+}
