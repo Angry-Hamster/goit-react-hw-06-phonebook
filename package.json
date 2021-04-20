@@ -20,6 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/Angry-Hamster/goit-react-hw-06-phonebook"
   },
+  "homepage": "https://angry-hamster.github.io/goit-react-hw-06-phonebook/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
