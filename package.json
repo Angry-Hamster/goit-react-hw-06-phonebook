@@ -16,11 +16,15 @@
     "redux": "^4.0.5",
     "web-vitals": "^1.1.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angry-Hamster/goit-react-hw-06-phonebook"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
